@@ -21,7 +21,14 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* IntelliSense configuration */
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["./src/components/*"],
+      "scss/*": ["./src/scss/*"]
+    }
   },
   "include": ["src"]
 }

@@ -1,5 +1,5 @@
 import "./Topbar.scss";
 
 export default function Topbar() {
-  return <p>Topbar</p>;
+  return <section className="topbar"></section>;
 }
